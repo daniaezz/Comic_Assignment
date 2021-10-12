@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: darkred;
+}
+
+img{
+  margin-top: 10px;
+  max-width: 1500px;
+  max-height: 600px;
+  border: black 3px solid;
+  cursor: pointer;
+}
+
+svg{
+  margin-top: 10px;
+  max-width: 1500px;
+  max-height: 600px;
+  border: black 3px solid;
+}
+
+.bckgr{
+  background-color: maroon;
+
+}
+
+#secondimg{
+  display: none;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.image{
+  flex:1;
+  margin-bottom: 100px;
+}
+
+.button{
+  border: black 5px solid;
+  flex:1;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: ComicSansMS, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p{
+
+  text-decoration: none;
+}
